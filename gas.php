@@ -1,9 +1,9 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
 include "function.php";
-echo color("blue"," ===========================\n");
-echo color("red","( belajar redeem vc |\n");
-echo color("green","| Creator : newbie            |\n");
+echo color("blue"," $$$$$$$$$$$$$$$$$$$$\n");
+echo color("red","( baru belajar om jangan di bully |\n");
+echo color("green","| kalau gagal berarti anda kurang tampan  |\n");
 echo "| notes : harap maklum      |\n";
 echo "| Time    :".date('[d-m-Y] [H:i:s]')."   |\n";
 echo " ===========================\n";
