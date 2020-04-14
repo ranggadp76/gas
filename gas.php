@@ -1,10 +1,10 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
 include "function.php";
-echo color("red"," ===========================\n");
+echo color("blue"," ===========================\n");
 echo color("red","( belajar redeem vc |\n");
-echo color("red","| Creator : newbir            |\n");
-echo "| Version : harap maklum      |\n";
+echo color("green","| Creator : newbie            |\n");
+echo "| notes : harap maklum      |\n";
 echo "| Time    :".date('[d-m-Y] [H:i:s]')."   |\n";
 echo " ===========================\n";
 
