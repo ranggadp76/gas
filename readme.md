@@ -1,8 +1,10 @@
-#voucher gojek claim voucher terbaru
+Daftar + Auto Claim Voucher GOFOOD, GORIDE, GOCAR Terbaru 15/04/2020
 
-voucher go food dan Go ride
+Jangan Lupa Berdoa Sebelum Menjalankan Scripnya
 
-kode perintah pkg update
+Perhatikan Langkah-Langkahnya
+
+pkg update
 
 pkg upgrade
 
@@ -12,10 +14,20 @@ pkg install curl
 
 pkg install git
 
-setelah itu anda wajib memasukan kode perintah untuk mendownload script auto claim voucher gojek 
-
 git clone https://github.com/ranggadp76/gas
 
 cd gas
 
-php gas.php
+php m.php
+
+Sudah Punya User Login ?: "y"
+
+Masukin User Loginnya
+
+Ketikan Nama Anda.
+
+Masukin nomor yang mau didaftarkan
+
+Masukin Kode Otpnya
+
+Enter Dan Selesai
