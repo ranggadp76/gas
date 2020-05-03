@@ -23,7 +23,7 @@ $pass =  ( '║ User Login : ' );
 echo "\033[30;40m";
 $user = trim(fgets(STDIN));
 echo "\033[0m";
-if($user == "sasuke" || $user == "gojek" || $user == "gopay" || $user == "goride" || $user == "gocar" || $user == "ilham" || $user == "rama" || $user == "gofood")
+if($user == "sasuke" || $user == "gojek" || $user == "gopay" || $user == "goride" || $user == "gocar" || $user == "ilham" || $user == "y" || $user == "gofood")
 {
 	echo "\e[92m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 	echo "\e[92m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
@@ -90,8 +90,8 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         $uuid = getStr('"resource_owner_id":',',',$verif);
         echo color("white","+] Your access token : ".$token."\n\n");
         save("token.txt",$token);
-        echo color("green","\n▬▬▬▬▬▬▬▬▬▬▬▬🎫AUTO REDEEM BRAY🎫▬▬▬▬▬▬▬▬▬▬▬▬");
-        echo "\n".color("white","🔐▶️ Claim Voc food");
+        echo color("green","\n▬▬▬▬▬▬▬▬▬▬▬▬🎫MOGA AUTO CLAIM🎫▬▬▬▬▬▬▬▬▬▬▬▬");
+        echo "\n".color("green","🔐▶️ Claim Voc food");
         echo "\n".color("yellow","⏳▶️ Please wait");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
@@ -125,17 +125,17 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         echo color("white",".");
         sleep(3);
         }
-        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"EBADAHBELANJA"}');
+        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"AXEANTIMATIGAYA"}');
         $message = fetch_value($code1,'"message":"','"');
         echo "\n".color("green","🔓▶️ Message: ".$message);
-        echo "\n".color("white","🔐▶️ Claim voc KENYANG");
+        echo "\n".color("white","🔐▶️ Claim voc GOSEND");
         echo "\n".color("yellow","⏳▶️ Please wait");
         for($a=1;$a<=3;$a++){
         echo color("white",".");
         sleep(1);
         }
         sleep(3);
-        $boba09 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"GOFOODLAGI270420E1"}');
+        $boba09 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"EBADAHNGIRIM"}');
         $messageboba09 = fetch_value($boba09,'"message":"','"');
         echo "\n".color("green","🔓▶️ Message: ".$messageboba09);
         sleep(3);
@@ -156,15 +156,15 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         $voucher13 = getStr1('"title":"','",',$cekvoucher,"13");
         echo "\n".color("yellow","🎫▶️ Total voucher ".$total." : ");
         echo "\n".color("green","                     1. ".$voucher1);
-        echo "\n".color("green","                     2. ".$voucher2);
+        echo "\n".color("blue","                     2. ".$voucher2);
         echo "\n".color("green","                     3. ".$voucher3);
-        echo "\n".color("green","                     4. ".$voucher4);
+        echo "\n".color("orange","                     4. ".$voucher4);
         echo "\n".color("green","                     5. ".$voucher5);
-        echo "\n".color("green","                     6. ".$voucher6);
+        echo "\n".color("black","                     6. ".$voucher6);
         echo "\n".color("green","                     7. ".$voucher7);
-        echo "\n".color("green","                     8. ".$voucher8);
+        echo "\n".color("red","                     8. ".$voucher8);
         echo "\n".color("green","                     9. ".$voucher9);
-        echo "\n".color("green","                     10. ".$voucher10);
+        echo "\n".color("brown","                     10. ".$voucher10);
 	echo "\n".color("green","                     11. ".$voucher11);
         echo "\n".color("green","                     12. ".$voucher12);
         echo "\n".color("green","                     13. ".$voucher13);
